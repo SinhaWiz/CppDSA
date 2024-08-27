@@ -28,7 +28,7 @@ if(d==-1){
 
 int heightOfTree(Node * root){
     if(root == NULL){
-        return 0;
+        return -1;
     }
     int h1 = heightOfTree(root->left);
     int h2 = heightOfTree(root->right);
